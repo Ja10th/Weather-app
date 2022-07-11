@@ -1,0 +1,17 @@
+.talkk {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.talk {
+  margin-top: 100px;
+}
+.talkk .search-box {
+  text-align: left !important;
+  align-items: left !important;
+  justify-content: flex-start !important;
+  place-items: center !important;
+  float: left !important;
+}
+.talk .search-btn {
+  justify-content: flex-end !important;
+}

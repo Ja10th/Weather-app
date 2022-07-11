@@ -1,0 +1,43 @@
+.navbar {
+  padding: 2rem 0 !important;
+  border-bottom: 1px solid rgba(184, 183, 183, 0.631);
+}
+.nav-bar {
+  background: transparent !important;
+}
+.Nav-logo {
+  font-size: 2rem;
+  border-radius: 80%;
+  margin-right: 0.4rem;
+  background: var(--primary);
+  padding: 5px;
+  color: var(--white);
+}
+.nav-link {
+  font-weight: 500 !important;
+  color: var(--black) !important;
+}
+.nav-item {
+  padding: 0 1rem;
+}
+.navbar-brand {
+  padding-left: 4.8rem;
+  font-weight: bolder;
+  font-size: 16px !important;
+  padding-top: 0.4rem;
+}
+.navbar-nav {
+  padding: 0 13rem !important;
+}
+.map-btn {
+  background: black !important;
+  border: none;
+}
+.btn {
+  border: none !important;
+}
+.map-icon {
+  font-size: 2rem;
+  padding: 5px;
+  margin-right: 0.4rem;
+}

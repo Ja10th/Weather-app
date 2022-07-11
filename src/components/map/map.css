@@ -1,0 +1,10 @@
+iframe {
+  height: 80vh;
+}
+.map {
+  text-align: center;
+}
+.map h2 {
+  text-align: center;
+  padding: 4rem 0;
+}

@@ -1,0 +1,42 @@
+.forecast__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-top: 40px;
+}
+.forecast__container > div {
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.forecast__container img {
+  height: 25px;
+  width: 40px;
+  margin: 0 1rem;
+}
+.forecast {
+  text-align: center !important;
+}
+.forecast h2 {
+  text-align: center !important;
+  padding: 6rem 0 2rem 0;
+}
+h4 {
+  font-size: 18px !important;
+}
+.full {
+  margin: 0 2rem;
+  color: var(--secondary);
+}
+.forecast-btn {
+  background: var(--primary-btn) !important ;
+  margin: 2rem 0;
+  padding: 12px 14px !important;
+}
+.forecast-icon {
+  border: 1px solid var(--secondary);
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: 8px;
+  font-weight: 500;
+}

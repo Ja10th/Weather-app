@@ -1,0 +1,114 @@
+.hero__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem 0;
+}
+.hero__container p {
+  padding: 1.2rem 2rem;
+}
+.hero__container p::after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: var(--secondary);
+  margin-top: 2rem;
+  opacity: 0.5;
+}
+.hero-two__container {
+  max-width: var(--container-width-md) !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+.search-box {
+  height: 200px;
+  width: 600px;
+  background-image: url(https://images.unsplash.com/photo-1599054802207-91d346adc120?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJsdWUlMjBwYXR0ZXJufGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+  display: flex;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  margin-left: 4rem;
+  place-items: center;
+  justify-content: flex-end;
+}
+.form-search {
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+  place-items: center !important;
+  float: right !important;
+}
+.form-control {
+  padding: 20px !important;
+  width: 320px !important;
+  border: none !important;
+}
+.places {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.New-york {
+  background-image: url(https://media.istockphoto.com/photos/rainy-taxis-in-manhattan-picture-id1221283035?k=20&m=1221283035&s=612x612&w=0&h=m_NA2LWxBxd9q4BcFuK5XwXbcWVppOcPOO8ZdsfEoH0=);
+  color: #fff;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+  place-items: center !important;
+  height: 150px;
+  width: 150px;
+}
+.Gotham {
+  background-image: url(https://p0.pikist.com/photos/574/926/gotham-batman-building-architecture-perspective-scale-clouds-sky-evening.jpg);
+  color: #fff;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+  place-items: center !important;
+  height: 150px;
+  width: 150px;
+}
+.Madripoor {
+  color: #fff;
+  text-align: center !important;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk3PzEgIR1U6p9bn4gX3BXEPDot6-2hh33NQ&usqp=CAU);
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+  place-items: center !important;
+  height: 150px;
+  width: 150px;
+}
+.places p {
+  padding-top: 1rem;
+  color: rgb(216, 213, 213);
+  text-transform: uppercase;
+  font-size: 14px !important;
+}
+.places h3 {
+  font-size: 40px;
+  padding-top: -0.4rem;
+}
+.places small {
+  color: rgb(216, 213, 213);
+}
+.form-box {
+  background: var(--white);
+  display: Flex;
+  padding: 10px;
+}
+.search-btn {
+  background: var(--primary-btn) !important ;
+  padding: 0 35px !important;
+}
+.form-icon {
+  place-items: center;
+}
+h4 {
+  padding-bottom: 1rem;
+  font-size: 20px !important;
+  font-weight: 500;
+}
